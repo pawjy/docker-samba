@@ -1,0 +1,13 @@
+{
+  "github": {
+    "build": [
+      {"docker_build":"quay.io/wakaba/samba"}
+    ],
+    "tests": [
+      {"docker_push":"quay.io/wakaba/samba"}
+    ],
+    "merger": true,
+    "# gaa": true,
+    "# autobuild": true
+  }
+}
